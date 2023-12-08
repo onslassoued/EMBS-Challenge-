@@ -94,10 +94,10 @@ function App() {
       {/* <PatientsList></PatientsList> */}
 
       <Routes>
-        <Route path='Patients' element={<PatientsList></PatientsList>}></Route>
-        <Route path='/Home' element={<Home></Home>}></Route>
-        <Route path='Log In ' element={<LogIn></LogIn>}></Route>
         <Route path='Patients/:id' element={<Patients list={list}></Patients>}></Route>
+        <Route path='Patients' element={<PatientsList></PatientsList>}></Route>
+        <Route path='LogIn' element={<LogIn></LogIn>}></Route>
+        <Route path='/' element={<Home></Home>} exact></Route>
       </Routes>
     </div>
   )
