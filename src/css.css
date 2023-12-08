@@ -1,0 +1,533 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Raleway:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;1,100;1,200&family=Raleway:ital,wght@1,200&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;1,100;1,200&family=Raleway:ital,wght@1,200&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Montserrat:ital,wght@0,100;1,100;1,200&family=Raleway:ital,wght@1,200&family=Sedgwick+Ave+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Forum&family=Julius+Sans+One&family=Montserrat:ital,wght@0,100;1,100;1,200&family=Raleway:ital,wght@1,200&family=Sedgwick+Ave+Display&family=Shippori+Mincho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Forum&family=Julius+Sans+One&family=Montserrat:ital,wght@0,100;1,100;1,200&family=Raleway:ital,wght@1,200&family=Sedgwick+Ave+Display&family=Shippori+Mincho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Forum&family=Julius+Sans+One&family=Montserrat:ital,wght@0,100;0,200;1,100;1,200&family=Raleway:ital,wght@0,200;1,200&family=Sedgwick+Ave+Display&family=Shippori+Mincho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Forum&family=Julius+Sans+One&family=Montserrat:ital,wght@0,100;0,200;1,100;1,200&family=Raleway:ital,wght@0,200;1,200&family=Sedgwick+Ave+Display&family=Shippori+Mincho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Forum&family=Julius+Sans+One&family=Montserrat:ital,wght@0,100;0,200;1,100;1,200&family=Poltawski+Nowy:wght@700&family=Raleway:ital,wght@0,200;1,200&family=Sedgwick+Ave+Display&family=Shippori+Mincho&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    /* background-color: red; */
+}
+
+
+/* navbar styles */
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    position: sticky;
+    top: 0;
+    background-color: rgb(254, 252, 252, .95);
+    box-shadow: 0 0px 5px 0 #e5e4e2;
+}
+
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+li {
+    margin-left: 25px;
+    color: #ababab;
+    font-family: Roboto, Arial, sans-serif;
+    margin-bottom: 10px;
+
+}
+
+.dropdowncontent {
+    display: none;
+    position: absolute;
+    background-color: white;
+    padding-top: 10px;
+    box-shadow: 0 5px 9px 0 #d3cfc9;
+    /* display: flex;
+    flex-direction: column-reverse;
+    padding: 5px; */
+    margin-left: -28px;
+    margin-top: 5px;
+
+}
+
+::selection {
+    background-color: #20907c;
+    color: white;
+}
+
+.element {
+    width: 250px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+.element:hover {
+    background-color: rgb(234, 231, 231);
+}
+
+.dropdowncontent>a {
+    margin-top: 4px;
+
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown:hover .dropdowncontent {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: #ababab;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: medium;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+}
+
+.about:hover {
+    color: #20907c;
+
+}
+
+a:hover {
+    color: #20907c;
+}
+
+.dropdowncontent a {
+    width: 175px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+
+}
+
+.test {
+    background-color: red !important;
+}
+
+.logo img {
+    width: 250px;
+    padding-top: auto;
+    padding-bottom: auto;
+    margin-left: 23px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.home {
+    color: #20907c !important;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: medium;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+}
+
+.prolfil {
+    text-decoration: none;
+    color: #ababab;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: medium;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    height: 3px;
+
+}
+
+/* .element{
+    padding: 5px;
+    background-color: bisque ;
+    text-align: center;
+} */
+
+/* PatientsList component styles */
+
+.style {
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.searchbox {
+    width: 190px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.search {
+    align-items: center;
+    padding: 8px 12px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    color: #fff;
+    border: #747474;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+/* Patients component styles */
+.title {
+    text-align: center;
+    font-family: 'DynaPuff', cursive;
+    font-family: 'Forum', cursive;
+    font-family: 'Julius Sans One', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-family: 'Shippori Mincho', serif;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 700;
+    letter-spacing: -.3px;
+    margin-top: 100px;
+    padding-bottom: 10px;
+    color: #20907c;
+}
+
+.quote {
+    text-align: center;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 400;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: medium;
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 50px;
+    font-family: 'DynaPuff', cursive;
+    font-family: 'Forum', cursive;
+    font-family: 'Julius Sans One', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-family: 'Shippori Mincho', serif;
+    color: #747474;
+}
+
+/* PatientsCard component styles */
+.card {
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 3%;
+    width: 287px;
+    margin-bottom: 27px;
+    box-shadow: 0 3px 6px 0 #d3cfc9;
+    padding-bottom: 60px;
+}
+
+.card:hover {
+    box-shadow: 0 5px 11px 0 #d3cfc9;
+}
+
+.informations {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.informations li {
+    font-family: 'DynaPuff', cursive;
+    font-family: 'Forum', cursive;
+    font-family: 'Julius Sans One', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-family: 'Shippori Mincho', serif;
+    color: #878484;
+}
+
+
+.name {
+    margin-top: 25px;
+    text-align: center;
+    font-family: 'DynaPuff', cursive;
+    font-family: 'Forum', cursive;
+    font-family: 'Julius Sans One', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-family: 'Shippori Mincho', serif;
+    color: #20907c;
+
+}
+
+/* lOGIN component styles */
+
+.login {
+    margin-top: 100px;
+    display: flex;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.image {
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+}
+
+.loginfor img {
+    width: 100px;
+
+
+}
+
+.loginfor h3 {
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 700;
+    letter-spacing: -.3px;
+    margin-top: 5px;
+    padding-bottom: 10px;
+    color: #20907c;
+}
+
+.loginfor {
+    width: 50%;
+}
+
+.form img {
+    width: 100px;
+    margin-bottom: 50px;
+}
+.border{
+    width: 280px;
+    height: 40px;
+    margin-top: 20px;
+    color: rgb(90, 90, 90);
+    margin-left: 10px;
+    border-radius: 4px;
+    text-align: center;
+    background-color: transparent;
+    border-color: rgb(172, 168, 168);
+}
+.form button{
+    width: 180px;
+    height: 35px;
+    border-radius: 4px;
+    background-color: #20907c;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    color: #fff;
+
+}
+
+.form {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+/* Home component styles  */
+.grid{
+    display: flex;
+    background-color: #e5faf8;
+    margin: 0px;
+    padding: 0px;
+}
+.global{
+    /* flex: 1 !important; */
+    overflow: hidden;
+    height: 600px;
+    width: 750px;
+}
+.global h3{
+    text-align: center;
+    text-align: center;
+    font-family: 'DynaPuff', cursive;
+    font-family: 'Forum', cursive;
+    font-family: 'Julius Sans One', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-family: 'Shippori Mincho', serif;
+    font-weight: 700;
+    letter-spacing: -.3px;
+    color: #20907c;
+    margin-top: 60px;
+    font-size: x-large;
+    width: 300px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.global p{
+    font-weight: 400;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: medium;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 0px !important;
+    font-family: 'DynaPuff', cursive;
+    font-family: 'Forum', cursive;
+    font-family: 'Julius Sans One', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-family: 'Shippori Mincho', serif;
+    color: #747474;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.global img{
+    margin-left: 100px;
+    margin-top: 0px;
+    top: 60px;
+    position: relative;
+    width: 500px;
+    padding-top: 0%;
+
+}
+.box{
+    /* flex: 1 !important; */
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    margin-right: 150px;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.box div {
+    background-color: white;
+    padding: 30px;
+    margin: 10px;
+    border-radius: 3%;
+    width:180px;
+    margin-top: 15px;
+    height: 270px;
+}
+.box h4{
+    font-size: 1.8461538462em;
+    color: #20907c;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'DynaPuff', cursive;
+    font-family: 'Forum', cursive;
+    font-family: 'Julius Sans One', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-family: 'Shippori Mincho', serif;
+    font-weight: 400;
+    font-size: xx-large;
+    letter-spacing: -.3px;
+    margin-bottom: 15px;
+    margin-top: 2px;
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.box p{
+    /* font-weight: 500;
+    font-family: Roboto, Arial, sans-serif;
+    color: #747474; */
+    font-family: 'DynaPuff', cursive;
+    font-family: 'Forum', cursive;
+    font-family: 'Julius Sans One', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-family: 'Shippori Mincho', serif;
+    color: #747474;
+    font-size: large;
+    margin-top: 5px;
+    margin-bottom: 10px !important;
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.Patients{
+    margin-top: 30px !important;
+    
+}
+.Doctors{
+    margin-top: 220px !important;
+    margin-left: 50px !important;
+}
+.Doctors p{
+    width: 160px;
+}
+
+.intro{
+    margin-top: 100px;
+    margin-bottom: 80px;
+
+
+}
+.intro img{
+    width: 150px;
+   
+}
+.intro h3{
+    text-align: center;
+    font-size: 1.8461538462em;
+    color: #20907c;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    margin-bottom: 50px;
+    letter-spacing: -.3px;
+}
+.intro p{
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 400;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: medium;
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 50px;
+    font-family: 'DynaPuff', cursive;
+    font-family: 'Forum', cursive;
+    font-family: 'Julius Sans One', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-family: 'Shippori Mincho', serif;
+    color: #747474;
+    width: 650px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
