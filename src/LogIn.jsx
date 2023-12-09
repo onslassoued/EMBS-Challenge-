@@ -16,7 +16,6 @@ const LogIn = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        // Handle form submission logic (e.g., sending data to a server)
         console.log('Email:', email, 'Password:', password);
     };
 
@@ -51,19 +50,3 @@ const LogIn = () => {
 export default LogIn;
 
 
-// function LogIn() {
-//   return (
-//     <div>
-//       <div>
-//         <img src={img1} ></img>
-//         <h3>Health Aid Initiative</h3>
-//         <p>We support doctors in managing their practices more effectively . Our comprehensive solution allows them to dedicate more time to what tryly matters -their PATIENT .</p>
-//       </div>
-//       <div>
-//         <input type="email" />
-//       </div>
-//     </div>
-//   )
-// }
-
-// export default LogIn

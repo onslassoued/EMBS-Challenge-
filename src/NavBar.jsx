@@ -24,9 +24,6 @@ function NavBar() {
                     </div>
                 </li>
             </ul>
-            {/* <Routes>
-                <Route path='Patients' element={<Patients></Patients>}></Route>
-            </Routes> */}
         </div>
     )
 }
